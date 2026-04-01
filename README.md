@@ -26,12 +26,12 @@ Repositório com **exercícios resolvidos de Introdução à Programação**, im
 
 Dentro da pasta do projeto:
 
-### Linux
+### Linux:
 ```bash
 gcc Lista-01/ex01.c -o ex01
 ./ex01
 ```
-### Windows 
+### Windows:
 ```bash
 gcc .\Lista-01\ex01.c -o ex01.exe
 .\ex01.exe
