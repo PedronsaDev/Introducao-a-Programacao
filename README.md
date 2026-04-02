@@ -4,6 +4,12 @@ Repositório com **exercícios resolvidos de Introdução à Programação**, im
 
 ## Estrutura do repositório
 
+- `Lista-00/` 
+  Contém a lista de treinamento:
+  - `ex01.c`
+  - `ex02.c`
+  - `ex03.c`
+
 - `Lista-01/`  
   Contém a primeira lista de exercícios em C:
   - `ex01.c`
