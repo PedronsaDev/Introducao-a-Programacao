@@ -8,8 +8,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
 	// Temos que utilizar double(long float) 
 	// por conta do numero de casas decimais
 	double metros;

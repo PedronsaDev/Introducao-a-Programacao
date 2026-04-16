@@ -13,8 +13,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
     double fahrenheit;
     scanf("%lf", &fahrenheit);
 

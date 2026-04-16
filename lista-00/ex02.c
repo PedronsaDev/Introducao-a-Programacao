@@ -9,8 +9,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
     float peso, altura;
     scanf("%f %f", &peso, &altura);
 

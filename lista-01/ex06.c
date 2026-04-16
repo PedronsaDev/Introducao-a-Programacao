@@ -7,8 +7,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
     float salario, salarioMinimo;
     scanf("%f %f", &salario, &salarioMinimo);
 

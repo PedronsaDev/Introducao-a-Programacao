@@ -7,8 +7,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
 	int horas, minutos;
 	scanf("%d %d", &horas, &minutos);
 	

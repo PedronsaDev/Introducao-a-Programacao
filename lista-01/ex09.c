@@ -10,8 +10,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
     int valorCentavos;
     scanf("%d", &valorCentavos);
     
@@ -27,8 +27,7 @@ int main()
     // Obs: caso o bloco tenha apenas uma linha de codigo
     // nao eh necessario usar chaves apenas indentacao.
 
-    while(valorCentavos > 0)
-    {
+    while(valorCentavos > 0){
         // Caso valorCentavos for maior ou igual x
         // subtraimos x de valorCentavos.
         // Case valorCentavos seja menor que x

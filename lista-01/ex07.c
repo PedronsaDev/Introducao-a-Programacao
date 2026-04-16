@@ -7,8 +7,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
     int valorDeposito;
     float taxaJuros;
 

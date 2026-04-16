@@ -6,8 +6,8 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main(){
+
     float nota1, nota2, nota3;
     scanf("%f %f %f", &nota1, &nota2, &nota3);
 

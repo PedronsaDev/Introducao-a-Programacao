@@ -17,8 +17,8 @@
 #include <string.h>
 
 
-int main()
-{
+int main(){
+
     // O uso de colchetes([]) define que estamos criando um vetor/array de elementos
     // neste caso criamos um vetor de caracteres(string).
     char senhaAtual[4];
@@ -34,8 +34,7 @@ int main()
     //
     // A funcao strcmp retorna 1 ou -1 se as strings
     // sao diferentes e 0 se forem iguais.
-    while(strcmp(senhaAtual, suaSenha) != 0)
-    {
+    while(strcmp(senhaAtual, suaSenha) != 0){
         // Aqui incrementamos uma letra do elemento de indice [2]
         // da string. 
         // Ex: AAA -> AAB
@@ -43,8 +42,7 @@ int main()
         senhaAtual[2]++;
 
         // Checamos se o elemento de indice [2] eh igual a 'Z'.
-        if(senhaAtual[2] > 'Z')
-        {
+        if(senhaAtual[2] > 'Z'){
             // Caso seja verdade voltamos o valor dele para 'A'
             // e incrementamos o valor do elemento de indice [1].
             // Ex: AAZ -> ABA
@@ -53,8 +51,7 @@ int main()
             senhaAtual[1]++;
 
             // Repetimos isso sucetivamente para os outros elementos.
-            if(senhaAtual[1] > 'Z')
-            {
+            if(senhaAtual[1] > 'Z'){
                 senhaAtual[1] = 'A';
                 senhaAtual[0]++;
 
