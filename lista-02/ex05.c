@@ -34,7 +34,9 @@ int main() {
    } else if (carta1 == 'A') {
       ases++; // Contamos os As para decidir o valor depois
    } else {
-      soma += carta1 - '0'; // Converte char numerico para int
+      soma += carta1 - '0'; // Converte char numerico para int fazendo um offset
+      // Na tabela ascii os numeros comecao na posicao 48 (0) entao se a gente 
+      // subitrair o 0 = 48 de algum outro numero em ascii nos teremos o valor do numero
    }
 
    if (carta2 == 'J' || carta2 == 'Q' || carta2 == 'K') {
